@@ -1,0 +1,54 @@
+
+
+.traffic-light_red {
+    background-color: red;
+}
+.traffic-light_yellow {
+    background-color: yellow;
+}
+.traffic-light_green {
+    background-color: green;
+}
+.traffic-light_text:before{
+    content: 'Hello word!';
+    position: absolute;
+    background-color: indigo;
+    margin-top: 45%;
+    left: 30%;
+
+    
+}
+
+.traffic-light {
+    margin-top: 5%;
+    position: absolute;
+    left: 35%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.traffic-light2 {
+    margin-top: 21%;
+    position: absolute;
+    left: 35%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+
+}
+
+.traffic-light3 {
+    margin-top: 37%;
+    position: absolute;
+    left: 35%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 50% ;
+}
+
+
+
